@@ -13,9 +13,9 @@ A fictional report quotes “five warehouses.” Its source says “three wareho
 | Check an AI answer | [Output Verification](https://output-verification.agendamcp.dpdns.org/#one-claim-review) | Missing references and quote mismatches in the answer and source text you provide. |
 | Check a proposed agent action | [Vizier playground](https://vizier.agendamcp.dpdns.org/playground#missing-grant) | Run the fictional missing-grant case and inspect the `BLOCK` decision. Enforcement uses a signed grant and an authenticated integration. |
 | Find the right trade evidence review | [Corridor & Sanctions Risk Assistant](https://corridor-sanctions-assistant.agendamcp.dpdns.org/) | Select the Aktau–Baku example to see the recommended specialist and the records to gather. Question routing is free. |
-| Draft a corridor project or trade document | [Corridor Bankability Analyst](https://agenstry.com/mcp/corridor.agendamcp.dpdns.org/mcp) | Prepare a draft with a source ledger, calculations and a human review packet. Tool discovery is public. Tool calls require an operator-issued bearer key. |
+| Draft a corridor project or trade document | [Read the Corridor Bankability sample note](https://corridor.agendamcp.dpdns.org/start#sample) | See the fictional draft and claim ledger before connecting. MCP tool discovery is public. Tool calls require an operator-issued bearer key. |
 
-[Try your own answer](https://output-verification.agendamcp.dpdns.org/#raw-answer) · [Connect via MCP or A2A](https://github.com/vassiliylakhonin/agenda-intelligence-md/blob/main/docs/deployment/output-verification-first-check.md) · [Integrate Vizier](https://github.com/vassiliylakhonin/vizier/blob/main/docs/AUTHORIZATION_QUICKSTART.md)
+[Try your own answer](https://output-verification.agendamcp.dpdns.org/#raw-answer) · [Connect via MCP or A2A](https://github.com/vassiliylakhonin/agenda-intelligence-md/blob/main/docs/deployment/output-verification-first-check.md) · [Guard a release with Vizier](https://vizier.agendamcp.dpdns.org/playground#guard-one-release)
 
 ## Installable analysis skills
 
@@ -34,7 +34,7 @@ For either regional skill, load the base `SKILL.md` first, then its Codex overla
 | Prepare a strategic-risk memo for a reviewer | [Agenda Intelligence MD](https://agenstry.com/agents/agendamcp.dpdns.org) |
 | Check identity and delegation evidence for an external agent request | [Agentic Interaction Trust Gate](https://agenstry.com/agents/interaction-trust.agendamcp.dpdns.org) |
 | Prepare a transaction for a human signing review | [Agent Financial Guard](https://agenstry.com/agents/agent-financial-guard.agendamcp.dpdns.org) |
-| Compare delivery evidence with an agreed hash and deadline | [M2M Escrow Arbiter](https://agenstry.com/agents/m2m-escrow-arbiter.agendamcp.dpdns.org) |
+| Compare delivery evidence with an agreed hash and deadline | [Escrow Delivery Evidence Review](https://agenstry.com/agents/m2m-escrow-arbiter.agendamcp.dpdns.org) |
 | Find document gaps in a Middle Corridor shipment file | [Middle Corridor Deal Risk Gate](https://agenstry.com/agents/middle-corridor-deal-risk-gate.agendamcp.dpdns.org) |
 | Gather ownership and dated screening records for a counterparty | [CIS Secondary-Sanctions Exposure](https://agenstry.com/agents/cis-secondary-sanctions.agendamcp.dpdns.org) |
 | Find vessel, voyage and insurance document gaps | [Gulf Maritime Exposure Gate](https://agenstry.com/agents/gulf-maritime-exposure.agendamcp.dpdns.org) |
