@@ -1,35 +1,41 @@
 # Vassiliy Lakhonin
 
-**Evidence, permission, approval. Before action.**
+I build tools that check evidence in AI outputs and verify signed permissions for proposed agent actions. I also develop analysis skills for policy and transport decisions that a human reviewer can audit.
 
-AI drafts. Humans decide.
+## AI evidence and authorization
 
-## Start here
-
-| Your task | Try it | What you get |
+| Project | Use it for | Try or verify |
 | --- | --- | --- |
-| Check an AI answer | [Output Verification](https://output-verification.agendamcp.dpdns.org/#one-claim-review) | Missing references and quote mismatches. Try the fictional "five warehouses" vs "three warehouses" example. |
-| Check a proposed agent action | [Vizier playground](https://vizier.agendamcp.dpdns.org/playground#missing-grant) | A fictional missing-grant case with a `BLOCK` decision you can inspect. |
-| Find the right trade evidence review | [Corridor & Sanctions Risk Assistant](https://corridor-sanctions-assistant.agendamcp.dpdns.org/) | An Aktau-Baku example showing which specialist to use and which records to gather. |
-| Draft a corridor project document | [Corridor Bankability sample note](https://corridor.agendamcp.dpdns.org/start#sample) | A fictional draft with a claim ledger and open questions for a human reviewer. |
+| [Agenda Intelligence MD](https://github.com/vassiliylakhonin/agenda-intelligence-md) | Flag missing citations, altered quotes and unsupported numbers in AI output using the source text you supply. | [Try the fictional citation check](https://output-verification.agendamcp.dpdns.org/#one-claim-review) · [Run locally with Python](https://github.com/vassiliylakhonin/agenda-intelligence-md#first-run) |
+| [Vizier](https://github.com/vassiliylakhonin/vizier) | Check a proposed tool call against signed permissions and inspect the authorization decision and its request-bound receipt. | [Try the missing-grant example](https://vizier.agendamcp.dpdns.org/playground#missing-grant) · [Verify the receipt and tamper checks locally](https://github.com/vassiliylakhonin/vizier/blob/main/docs/FIRST_BLOCK.md) |
 
-[Try your own answer](https://output-verification.agendamcp.dpdns.org/#raw-answer) · [Connect via MCP or A2A](https://github.com/vassiliylakhonin/agenda-intelligence-md/blob/main/docs/deployment/output-verification-first-check.md) · [Guard a release with Vizier](https://vizier.agendamcp.dpdns.org/playground#guard-one-release)
+[Review your own answer](https://output-verification.agendamcp.dpdns.org/#raw-answer) · [Connect Agenda via MCP or A2A](https://github.com/vassiliylakhonin/agenda-intelligence-md/blob/main/docs/deployment/output-verification-first-check.md) · [Guard a Worker release with Vizier](https://vizier.agendamcp.dpdns.org/playground#guard-one-release).
 
-## Installable analysis skills
+## Policy and corridor analysis
 
-| Skill | Use it for |
-| --- | --- |
-| [Global Think Tank Analyst](https://github.com/vassiliylakhonin/global-think-tank-analyst/blob/main/SKILL.md) | Strategic-risk memos with options, scenarios and evidence. |
-| [Central Asia & Caspian](https://github.com/vassiliylakhonin/central-asia-caspian-hybrid-intelligence-skill/blob/main/SKILL.md) | Regional analysis of banking, ownership, trade corridors and energy. |
-| [Gulf & Middle East](https://github.com/vassiliylakhonin/gulf-middle-east-hybrid-intelligence-skill/blob/main/SKILL.md) | Regional analysis of banking, energy and maritime exposure. |
+These installable skills structure a decision memo around evidence, assumptions, open questions and human review. Each repository records its validation and limits.
 
-Using Codex? Global Think Tank Analyst has a [standalone variant](https://github.com/vassiliylakhonin/global-think-tank-analyst/blob/main/codex/SKILL.md). For either regional skill, load the base `SKILL.md` first, then its overlay: [Central Asia & Caspian](https://github.com/vassiliylakhonin/central-asia-caspian-hybrid-intelligence-skill/blob/main/runtimes/codex/SKILL.md) · [Gulf & Middle East](https://github.com/vassiliylakhonin/gulf-middle-east-hybrid-intelligence-skill/blob/main/runtimes/codex/SKILL.md).
+| Skill | Use it for | Start here |
+| --- | --- | --- |
+| [Global Think Tank Analyst](https://github.com/vassiliylakhonin/global-think-tank-analyst) | Compare policy options, scenarios and the evidence that could change a decision. | [Install the skill](https://github.com/vassiliylakhonin/global-think-tank-analyst#start-with-the-skill) · [Worked examples](https://github.com/vassiliylakhonin/global-think-tank-analyst/blob/main/examples/README.md) |
+| [Central Asia & Caspian](https://github.com/vassiliylakhonin/central-asia-caspian-hybrid-intelligence-skill) | Analyze trade routes, banking relationships, ownership and energy exposure in Central Asia and the Caspian. | [Install the skill](https://github.com/vassiliylakhonin/central-asia-caspian-hybrid-intelligence-skill#start-with-the-skill) · [Worked examples](https://github.com/vassiliylakhonin/central-asia-caspian-hybrid-intelligence-skill/blob/main/examples/README.md) |
+| [Gulf & Middle East](https://github.com/vassiliylakhonin/gulf-middle-east-hybrid-intelligence-skill) | Analyze Gulf banking, energy flows and maritime chokepoints. | [Install the skill](https://github.com/vassiliylakhonin/gulf-middle-east-hybrid-intelligence-skill#start-with-the-skill) · [Worked examples](https://github.com/vassiliylakhonin/gulf-middle-east-hybrid-intelligence-skill/blob/main/examples/README.md) |
 
-[All three in the Agenstry Skills Library](https://agenstry.com/skills/library?kind=skill_md&q=vassiliylakhonin)
+Using Codex? Try the [Global Think Tank Analyst standalone skill](https://github.com/vassiliylakhonin/global-think-tank-analyst/blob/main/codex/SKILL.md). For the regional skills, load the base `SKILL.md` and the matching Codex overlay for [Central Asia & Caspian](https://github.com/vassiliylakhonin/central-asia-caspian-hybrid-intelligence-skill/blob/main/runtimes/codex/SKILL.md) or [Gulf & Middle East](https://github.com/vassiliylakhonin/gulf-middle-east-hybrid-intelligence-skill/blob/main/runtimes/codex/SKILL.md). [Agenstry Skills Library](https://agenstry.com/skills/library?kind=skill_md&q=vassiliylakhonin)
 
-## Specialist reviews
+For a shipment question, the [Corridor & Sanctions Risk Assistant](https://corridor-sanctions-assistant.agendamcp.dpdns.org/) shows which specialist to use and which records to gather. For a project document, read the [fictional Corridor Bankability sample](https://corridor.agendamcp.dpdns.org/start#sample) with a claim ledger and open questions for the reviewer.
 
-A shared workflow, different checklists: review supplied evidence, identify gaps and prepare the next step for a human reviewer. Pick by your task.
+## Case studies and protocol work
+
+- [Halyk Agentic Challenge](https://github.com/vassiliylakhonin/halyk-agentic-challenge). Banking-document competition entry. Run a synthetic covenant calculation offline via [the quick start](https://github.com/vassiliylakhonin/halyk-agentic-challenge#quick-start), then read [what changed between the open and hidden evaluations](https://github.com/vassiliylakhonin/halyk-agentic-challenge/blob/main/docs/results-and-design.md).
+- [Vizier4Dev](https://github.com/vassiliylakhonin/vizier4dev). Bilingual grant-reporting prototype. [Try it on fictional data](https://vizier4dev.pages.dev/) to trace a figure to its source and prepare a donor handover.
+- [AEP delivery-digest vectors](https://github.com/vassiliylakhonin/aep-delivery-digest-vector). Two external application-profile fixtures for delivery evidence, with a [local verifier](https://github.com/vassiliylakhonin/aep-delivery-digest-vector#verify) and the [upstream discussion](https://github.com/A-Comm-Tech/a-comm-evidence-protocol/discussions/114).
+- [Agent payments research](https://github.com/vassiliylakhonin/agent-payments-research). Research fork with drafts on evidence for payment disputes and delivery.
+
+<details>
+<summary>Specialist review tools and Agenstry catalog</summary>
+
+Choose the specialist that matches your evidence and the decision under review.
 
 | Your task | Agent |
 | --- | --- |
@@ -46,10 +52,10 @@ A shared workflow, different checklists: review supplied evidence, identify gaps
 
 [Full Agenstry catalog and technical status](https://agenstry.com/providers/Vassiliy%20Lakhonin)
 
+</details>
+
 ## Before connecting
 
-- Saved examples are fictional, not customer results. Output Verification checks citation structure and quote presence, not factual truth or source authenticity.
-- Vizier evaluates proposed actions; it does not execute them. Enforcement requires a signed grant and an authenticated integration.
-- Corridor routing is free; specialist checks have separate terms. Corridor Bankability tool calls require an operator-issued bearer key. Check each service's access, trial and payment terms before submitting.
-
-These tools support human review. They do not replace legal, compliance, financial or insurance advice.
+- The examples use fictional inputs. Agenda checks the structure of supplied evidence for human review.
+- With Vizier, your authenticated integration applies the authorization result before the tool runs.
+- Corridor routing is free. Specialist checks have their own access terms. Corridor Bankability tool calls require an operator-issued bearer key.
