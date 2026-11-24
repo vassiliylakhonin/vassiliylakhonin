@@ -31,6 +31,7 @@ For a shipment question, the [Corridor & Sanctions Risk Assistant](https://corri
 - [Vizier4Dev](https://github.com/vassiliylakhonin/vizier4dev). Bilingual grant-reporting prototype. [Try it on fictional data](https://vizier4dev.pages.dev/) to trace a figure to its source and prepare a donor handover.
 - [AEP delivery-digest vectors](https://github.com/vassiliylakhonin/aep-delivery-digest-vector). Two external application-profile fixtures for delivery evidence, with a [local verifier](https://github.com/vassiliylakhonin/aep-delivery-digest-vector#verify) and the [upstream discussion](https://github.com/A-Comm-Tech/a-comm-evidence-protocol/discussions/114).
 - [Agent payments research](https://github.com/vassiliylakhonin/agent-payments-research). Research fork with drafts on evidence for payment disputes and delivery.
+- [Delivery-conformance vectors for x402 ext-delivery](https://github.com/ak68a/agent-payments-research/pull/4). Merged contribution: four synthetic test cases (digest and schema pass or fail) for a delivery-evidence check, with a small verifier script. It tests hashes and schemas only, not payments or demand.
 
 <details>
 <summary>Specialist review tools and Agenstry catalog</summary>
